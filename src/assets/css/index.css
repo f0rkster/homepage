@@ -1,0 +1,107 @@
+
+@font-face {
+    font-family: Hikour;
+    src: url("../fonts/hikou/Hikou Regular.otf");
+}
+
+@font-face {
+    font-family: Hikour-Inline;
+    src: url("../fonts/hikou/Hikou Inline.otf");
+}
+
+:root {
+    --dark-slate-gray: #255957;
+    --teal-blue: #437C90;
+    --beige: #EEEBD3;
+    --pumpkin: #FC7A1E;
+    --metallic-sunburst: #A98743;
+    --maize-crayola: #F7C548;
+}
+
+* {
+    font-family: Hikour;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--beige);
+    display: flex;
+    flex-direction: column;
+}
+/*HEADER*/
+header {
+    background: var(--dark-slate-gray);
+    color: var(--beige);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header-logo h1{
+    font-family: Hikour-Inline;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li{
+    margin: 5px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
+header nav ul li a:visited {
+    color: var(--beige);
+}
+header nav ul li a:hover {
+    color: var(--pumpkin);
+}
+
+header .header-login {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+    font-size: 12px;
+}
+header .header-login div{
+    margin-right: 5px;
+}
+header .header-login img {
+    height: 15px;
+    margin-top: 2px;
+}
+
+/*MAIN*/
+
+main {
+    width: 80%;
+    background: var(--teal-blue);
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main section {
+    width: 90%;
+    align-self: center;
+}
+
+main section img {
+    height: 50px;
+}
+
+main section article .article-content img {
+    height: 100px;
+    margin-left: 10px;
+    float: right;
+}
