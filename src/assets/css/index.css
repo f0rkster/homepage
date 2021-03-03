@@ -26,6 +26,7 @@ body {
     margin: 0;
     padding: 0;
     background: var(--beige);
+    background-image: url("../images/main/body-background.jpg");
     display: flex;
     flex-direction: column;
 }
@@ -36,6 +37,9 @@ header {
     display: flex;
     align-items: center;
     flex-direction: row;
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: var(--pumpkin);
 }
 
 .header-logo h1{
