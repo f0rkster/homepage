@@ -52,15 +52,33 @@ header nav ul {
 
 header nav ul li{
     margin: 5px;
+    margin-left: 10px;
+    position: relative;
+    text-align: center;
 }
 
 header nav ul li a{
     text-decoration: none;
 }
 
+.highlight {
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.highlight:hover {
+    background: url("../images/header/brush_stroke.png");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+
 header nav ul li a:visited {
     color: var(--beige);
 }
+
 header nav ul li a:hover {
     color: var(--pumpkin);
 }

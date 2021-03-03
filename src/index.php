@@ -16,10 +16,35 @@
     </div>
     <nav>
         <ul class="header-links">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="index.php">Blog</a></li>
-            <li><a href="index.php">Lebenslauf</a></li>
-            <li><a href="index.php">Gästebuch</a></li>
+            <li>
+                <a href="index.php">
+                    <span class="highlight">
+                        Home
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="index.php">
+                    <span class="highlight">
+                        Blog
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="index.php">
+                    <span class="highlight">
+                        Lebenslauf
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="index.php">
+                    <span class="highlight">
+                        Gästebuch
+                    </span>
+                </a>
+            </li>
+
         </ul>
     </nav>
     <div class="header-login">
