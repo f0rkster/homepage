@@ -47,6 +47,41 @@ header {
     margin-left: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transform: scale(1);
+    animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        color: var(--beige);
+    }
+
+    80% {
+        transform: scale(0.95);
+        color: var(--beige);
+    }
+
+    85% {
+        transform: scale(1);
+        color: var(--pumpkin);
+    }
+
+
+    90% {
+        transform: scale(0.95);
+        color: var(--beige);
+    }
+
+    95% {
+        transform: scale(1);
+        color: var(--pumpkin);
+    }
+
+    100% {
+        transform: scale(0.95);
+        color: var(--beige);
+    }
 }
 
 header nav ul {
@@ -124,7 +159,16 @@ main section {
 }
 
 main section article .article-content img {
-    height: 100px;
+    width: 400px;
     margin-left: 10px;
     float: right;
+}
+
+/*FOOTER*/
+footer {
+    background: var(--dark-slate-gray);
+    color: var(--beige);
+    border-top: solid;
+    border-top-width: 5px;
+    border-top-color: var(--pumpkin);
 }
