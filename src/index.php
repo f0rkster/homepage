@@ -77,7 +77,9 @@
             <h2>Letzter Artikel Urlaub</h2>
             <div class="article-content">
                 <p>
-                    <img src="assets/images/vacation/IMG-20170609-WA0013.jpg">
+                    <div class="cropped-img">
+                        <img src="assets/images/vacation/IMG-20170609-WA0013.jpg">
+                    </div>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                     invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
                     et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
@@ -95,7 +97,9 @@
             <h2>Letzter Artikel Hobbies</h2>
             <div class="article-content">
                 <p>
-                    <img src="assets/images/hobbies/code-t.jpg">
+                    <div class="cropped-img">
+                        <img src="assets/images/hobbies/code-t.jpg">
+                    </div>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                     invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
                     et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem

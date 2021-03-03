@@ -158,10 +158,28 @@ main section {
     flex-direction: column;
 }
 
-main section article .article-content img {
-    width: 400px;
-    margin-left: 10px;
+.cropped-img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    transition: transform .2s;
+}
+
+
+main section article .article-content div {
     float: right;
+    margin-left: 10px;
+}
+
+main section article .article-content div img {
+    width: 400px;
+    transition: transform 2s;
+}
+
+main section article .article-content div img:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
 }
 
 /*FOOTER*/
