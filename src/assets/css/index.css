@@ -96,9 +96,11 @@ main section {
     align-self: center;
 }
 
-main section img {
-    height: 50px;
+#sec-1 {
+    display: flex;
+    flex-direction: column;
 }
+
 
 main section article .article-content img {
     height: 100px;

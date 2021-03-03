@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -24,9 +28,9 @@
     </div>
 </header>
 <main>
-    <section class="sec-1">
+    <section id="sec-1">
         <h2>Aktuelles</h2>
-        <img src="assets/images/slideshow/2019_07_Matze_008-303-3.jpg">
+        <?require "assets/php/gallery.php"?>
     </section>
     <section class="sec-2">
         <article>
