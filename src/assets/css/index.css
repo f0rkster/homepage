@@ -40,6 +40,11 @@ header {
     border-bottom: solid;
     border-bottom-width: 5px;
     border-bottom-color: var(--pumpkin);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .header-logo h1{
@@ -53,12 +58,12 @@ header {
 
 @keyframes pulse {
     0% {
-        transform: scale(0.95);
+        transform: scale(0.98);
         color: var(--beige);
     }
 
     80% {
-        transform: scale(0.95);
+        transform: scale(0.98);
         color: var(--beige);
     }
 
@@ -165,18 +170,17 @@ main section {
     transition: transform .2s;
 }
 
-
-main section article .article-content div {
+main section article .article-content .cropped-img {
     float: right;
     margin-left: 10px;
 }
 
-main section article .article-content div img {
+main section article .article-content .cropped-img img {
     width: 400px;
     transition: transform 2s;
 }
 
-main section article .article-content div img:hover {
+main section article .article-content .cropped-img img:hover {
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2);
